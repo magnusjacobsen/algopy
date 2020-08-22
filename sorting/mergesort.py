@@ -35,7 +35,6 @@ def merge(a, aux, lo, mid, hi):
     # merge back to a[lo .. hi]
     k = lo
     while k <= hi:
-        print(k)
         if i > mid:
             a[k] = aux[j]
             j += 1
